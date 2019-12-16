@@ -3,5 +3,9 @@
   margin: 0;
 }
 body {
-font-size: 40px;
+font-size: 60px;
+}
+.top-row {
+  height: 10vh;
+  overflow: hidden;
 }
