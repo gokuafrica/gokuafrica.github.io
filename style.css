@@ -2,49 +2,50 @@
   padding: 0;
   margin: 0;
 }
+
 html {
   font-size: 100%;
 }
+
 body {
   font-size: 100%;
   text-align: center;
   height: 100vh;
 }
-@media only screen and (max-height: 390px) {
-	.header {
-		font-size: 2em;
-	}
-}
-@media only screen and (min-height: 390px) {
-	.text {
-		font-size: 1em;
-	}
-	.header {
-		font-size: 10vh;
-	}
-}
-@media only screen and (min-height: 501px) {
-	.text {
-		font-size: 3vh;
-	}.header {
-		font-size: 10vh;
-	}
-}
-@media only screen and (min-height: 1000px) {
-	.text {
-		font-size: 1.5em;
-	}
-	.header {
-		font-size: 4em;
-	}
-}
+
 .header {
-  /*font-size: 10vh;/*calc(30px + (60 - 30) * ((100vh - 500px) / (800 - 500)));*/
+  font-size: 3em;
+  font-size: 10vh;
 }
+@media (max-height: 20em) {
+  .header {
+    font-size: 2em;
+  }
+}
+@media (min-height: 40em) {
+  .header {
+    font-size: 4em;
+  }
+}
+
 .text {
-  /*calc(1em + (2 - 1) * ((100vh - 300px) / (1600 - 300)));*/
+  font-size: 1em;
+  font-size: 3vh;
 }
+@media (max-height: 33.3333333333em) {
+  .text {
+    font-size: 1em;
+  }
+}
+@media (min-height: 50em) {
+  .text {
+    font-size: 1.5em;
+  }
+}
+
 .top-row {
   height: 10vh;
   overflow: hidden;
 }
+
+/*# sourceMappingURL=style.css.map */
