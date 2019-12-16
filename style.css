@@ -13,17 +13,17 @@ body {
 }
 
 .header {
-  font-size: 3em;
-  font-size: 8.1vh;
+  font-size: 1.5em;
+  font-size: 2vw;
 }
-@media (max-height: 18.5185185185em) {
+@media (max-width: 50em) {
   .header {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 }
-@media (min-height: 49.3827160494em) {
+@media (min-width: 150em) {
   .header {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 
