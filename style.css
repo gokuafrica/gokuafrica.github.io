@@ -2,8 +2,17 @@
   padding: 0;
   margin: 0;
 }
+html {
+  font-size: 100%;
+}
 body {
-  font-size: calc(30px + (60 - 30) * ((100vh - 300px) / (1600 - 300)));
+  font-size: 100%;
+}
+.header {
+  font-size: calc(2em + (4 - 2) * ((100vh - 300px) / (1600 - 300)));
+}
+.text {
+  font-size: calc(1em + (2 - 1) * ((100vh - 300px) / (1600 - 300)));
 }
 .top-row {
   height: 10vh;
