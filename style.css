@@ -9,10 +9,10 @@ body {
   font-size: 100%;
 }
 .header {
-  font-size: calc(2em + (4 - 2) * ((100vh - 300px) / (1050 - 300)));
+  font-size: calc(2em + (4 - 2) * ((100vh - 500px) / (1050 - 500)));
 }
 .text {
-  font-size: calc(1em + (2 - 1) * ((100vh - 300px) / (1050 - 300)));
+  font-size: calc(1em + (2 - 1) * ((100vh - 500px) / (1050 - 500)));
 }
 .top-row {
   height: 10vh;
