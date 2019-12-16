@@ -3,7 +3,7 @@
   margin: 0;
 }
 body {
-font-size: 60px;
+  font-size: calc(30px + (60 - 30) * ((100vh - 300px) / (1600 - 300)));
 }
 .top-row {
   height: 10vh;
