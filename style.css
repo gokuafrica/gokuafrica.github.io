@@ -7,12 +7,42 @@ html {
 }
 body {
   font-size: 100%;
+  text-align: center;
+  height: 100vh;
+}
+@media only screen and (max-height: 390px) {
+	.header {
+		font-size: 2em;
+	}
+}
+@media only screen and (min-height: 390px) {
+	.text {
+		font-size: 1em;
+	}
+	.header {
+		font-size: 10vh;
+	}
+}
+@media only screen and (min-height: 501px) {
+	.text {
+		font-size: 3vh;
+	}.header {
+		font-size: 10vh;
+	}
+}
+@media only screen and (min-height: 1000px) {
+	.text {
+		font-size: 1.5em;
+	}
+	.header {
+		font-size: 4em;
+	}
 }
 .header {
-  font-size: calc(2em + (4 - 2) * ((100vh - 500px) / (1050 - 500)));
+  /*font-size: 10vh;/*calc(30px + (60 - 30) * ((100vh - 500px) / (800 - 500)));*/
 }
 .text {
-  font-size: calc(1em + (2 - 1) * ((100vh - 500px) / (1050 - 500)));
+  /*calc(1em + (2 - 1) * ((100vh - 300px) / (1600 - 300)));*/
 }
 .top-row {
   height: 10vh;
