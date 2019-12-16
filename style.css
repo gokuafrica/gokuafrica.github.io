@@ -9,20 +9,19 @@ html {
 
 body {
   font-size: 100%;
-  text-align: center;
   height: 100vh;
 }
 
 .header {
   font-size: 3em;
-  font-size: 10vh;
+  font-size: 8.1vh;
 }
-@media (max-height: 20em) {
+@media (max-height: 18.5185185185em) {
   .header {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
-@media (min-height: 40em) {
+@media (min-height: 49.3827160494em) {
   .header {
     font-size: 4em;
   }
@@ -30,17 +29,22 @@ body {
 
 .text {
   font-size: 1em;
-  font-size: 3vh;
+  font-size: 4vh;
 }
-@media (max-height: 33.3333333333em) {
+@media (max-height: 25em) {
   .text {
     font-size: 1em;
   }
 }
-@media (min-height: 50em) {
+@media (min-height: 37.5em) {
   .text {
     font-size: 1.5em;
   }
+}
+
+.log-in-button {
+  float: right;
+  margin-right: 2vw;
 }
 
 .top-row {
